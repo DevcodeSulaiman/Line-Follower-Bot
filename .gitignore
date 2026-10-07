@@ -1,0 +1,61 @@
+# =============================================
+# Line Follower Bot — .gitignore
+# =============================================
+
+# Arduino IDE build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+
+# Arduino IDE cache
+*.cache
+.arduino15/
+arduino_cache/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+
+# Secrets / credentials — NEVER commit these
+secrets.h
+credentials.h
+*.env
+.env*
+
+# Large generated files
+*.zip
+*.tar.gz
+*.7z
