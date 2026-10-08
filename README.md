@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Line Follower Bot
+# Line Follower Bot
 
 **A competition-grade autonomous line following robot driven by a precision PID control algorithm**
 
@@ -78,17 +78,16 @@ The custom PCB keeps the build compact and competition-ready.
 
 ---
 
-## 🎬 Demo
+## Demo
 
 > **[▶ Watch the Line Follower Bot in action](media/demo/LFB_demonstration.mp4)**
 
 The demonstration video shows the robot following a closed-loop track at full competition speed, handling both tight corners and straight sections.
 
-> ℹ️ GitHub does not natively play `.mp4` files inline. Clone the repository or download the video to watch locally.
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```mermaid
 flowchart TD
@@ -133,7 +132,7 @@ Sensor Read → Position Estimate → Error Calculation
 
 ---
 
-## ⚙️ Hardware
+## Hardware
 
 ### Components
 
@@ -190,7 +189,7 @@ The custom PCB consolidates the Arduino Nano, TB6612FNG motor driver, and suppor
 
 ---
 
-## 💻 Software
+## Software
 
 ### Repository Structure
 
@@ -305,7 +304,7 @@ int base = lost ? BASE_SPEED / 2 : BASE_SPEED;
 5. Supply regulated 5V to Arduino Nano VIN.
 6. Verify all connections against the [wiring diagram](#wiring-diagram).
 
-> ⚠️ Double-check motor polarity — if a motor spins backwards, swap its two output wires at the driver terminal.
+> Double-check motor polarity — if a motor spins backwards, swap its two output wires at the driver terminal.
 
 ### Step 2 — Install Dependencies
 
@@ -387,6 +386,9 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
+
+## Acknowledgement
+Thanks [Drakren](https://github.com/Drakren) for the hardware architecture, schematics and the PCB design
 
 <div align="center">
 
