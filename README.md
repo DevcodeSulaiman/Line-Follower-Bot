@@ -390,6 +390,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## Acknowledgement
 Thanks [Drakren](https://github.com/Drakren) for the hardware architecture, schematics and the PCB design
 
+---
+
 <div align="center">
 
 **Built with ❤️ for robotics competitions**
